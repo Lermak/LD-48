@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MonoGame_Core.Scripts
+namespace LD48.Scripts
 {
     public static class Program
     {

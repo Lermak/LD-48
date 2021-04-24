@@ -4,7 +4,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using System.Diagnostics;
 
-namespace MonoGame_Core.Scripts
+namespace LD48.Scripts
 {
     public class CollisionBox : Collider
     {

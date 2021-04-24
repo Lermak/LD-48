@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 
-namespace MonoGame_Core.Scripts
+namespace LD48.Scripts
 {
     public class GameManager : Game
     {
@@ -23,7 +23,7 @@ namespace MonoGame_Core.Scripts
             CollisionManager.Initilize();
             SceneManager.Initilize(Content);
             Camera.Initilize();
-            SceneManager.ChangeScene(new TestScene());
+            SceneManager.ChangeScene(new MainMenu());
             base.Initialize();
         }
 

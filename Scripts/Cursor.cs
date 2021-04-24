@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework.Input;
 using System.Diagnostics;
 
-namespace MonoGame_Core.Scripts
+namespace LD48.Scripts
 {
     public static class Cursor
     {

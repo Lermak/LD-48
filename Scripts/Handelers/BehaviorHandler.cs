@@ -4,7 +4,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using System.Linq;
 
-namespace MonoGame_Core.Scripts
+namespace LD48.Scripts
 {
     public class BehaviorHandler
     {
@@ -50,9 +50,12 @@ namespace MonoGame_Core.Scripts
 
         public void Update(float gt)
         {
-            foreach(Behavior b in Behaviors.Values)
+            if (SceneManager.SceneState == SceneManager.State.Running)
             {
-                b.Update(gt);
+                foreach (Behavior b in Behaviors.Values)
+                {
+                    b.Update(gt);
+                }
             }
         }
 

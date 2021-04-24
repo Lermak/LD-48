@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 
-namespace MonoGame_Core.Scripts
+namespace LD48.Scripts
 {
     public abstract class GameObject
     {

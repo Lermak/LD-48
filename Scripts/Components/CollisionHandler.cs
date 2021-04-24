@@ -5,7 +5,7 @@ using System.Text;
 using System.Linq;
 using System.Diagnostics;
 
-namespace MonoGame_Core.Scripts
+namespace LD48.Scripts
 {
     public delegate void collisionAction(CollisionBox a, CollisionBox b, Vector2 p);
 

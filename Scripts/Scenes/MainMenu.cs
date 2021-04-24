@@ -3,18 +3,20 @@ using System.Collections.Generic;
 using System.Text;
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Media;
 
+
 namespace LD48.Scripts
 {
-    public class TestScene:Scene
+    public class MainMenu : Scene
     {
-        public TestScene():base()
+        public MainMenu() : base()
         {
-            
+
         }
 
         public override void Initilize(ContentManager c)
@@ -36,6 +38,15 @@ namespace LD48.Scripts
 
         public override void Update(float gt)
         {
+            if (SceneManager.SceneState == SceneManager.State.Running)
+            {
+                KeyboardState state = Keyboard.GetState();
+                if (state.GetPressedKeys().Length > 0)
+                {
+                    SceneManager.ChangeScene(new TestScene());
+                }
+            }
+
             base.Update(gt);
         }
     }

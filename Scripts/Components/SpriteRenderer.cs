@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Diagnostics;
 
-namespace MonoGame_Core.Scripts
+namespace LD48.Scripts
 {
     public class SpriteRenderer : Component
     {

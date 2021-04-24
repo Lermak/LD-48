@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using System.Text;
 
-namespace MonoGame_Core.Scripts
+namespace LD48.Scripts
 {
     public class Transform : Component
     {

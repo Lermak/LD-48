@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.Xna.Framework;
 
-namespace MonoGame_Core.Scripts
+namespace LD48.Scripts
 {
     public class RigidBody : Component
     {
